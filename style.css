@@ -1,0 +1,62 @@
+body
+{
+	background-color: rgb(255, 255, 255);
+align-items: center;
+
+}
+
+
+.contact-form
+{
+	width: 400px;
+	height: 500px;
+	background-color: #e8e8e8;
+	margin: 40px 35%;
+	padding: 30px;
+	border-radius: 0.5em;
+}
+
+.name-field, .email-field
+{
+	padding: 10px;
+	margin-top: 10px;
+}
+
+
+.form-control, .form-select
+{   font-family: monospace;
+	border: none;
+	color: #090909;
+	font-size: 18px;
+	border-radius: 0.5em;
+	background: #e8e8e8;
+	border: 1px solid #e8e8e8;
+	transition: all .3s;
+	box-shadow: 6px 6px 12px #c5c5c5,
+				-6px -6px 12px #ffffff;
+
+}
+.form-control:active
+{
+	outline: none !important;
+	border: none !important;
+}
+
+.btn-primary
+{
+	width: 100%;
+	border: none;
+	color: #090909;
+	font-size: 18px;
+	border-radius: 0.5em;
+	background: #e8e8e8;
+	border: 1px solid #e8e8e8;
+	transition: all .3s;
+	box-shadow: 6px 6px 12px #c5c5c5,
+				-6px -6px 12px #ffffff;
+}
+
+label
+{
+font-family: cursive;
+}
